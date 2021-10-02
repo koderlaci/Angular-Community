@@ -1,5 +1,6 @@
 .nav{
     display: flex;
+    justify-content: flex-end;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -12,7 +13,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 25%;
+    width: clamp(100px, 150px, 200px);
 }
 .nav-item:hover{
     background-color: rgb(165, 154, 154);
