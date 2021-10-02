@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 5vh;
+    width: 100%;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+.nav-item:hover{
+    background-color: rgb(165, 154, 154);
+    color: black;
+    cursor: pointer;
+}
